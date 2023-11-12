@@ -1,0 +1,129 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    height: 100vh;
+    width: 100vw;
+}
+
+.header {
+    background-color: #000000;
+    background: linear-gradient(135deg , white 70%, black 30%);
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+
+}
+
+.header .column {
+    flex: 1;
+    text-align: center;
+}
+
+.search-bar{
+    border-radius: 10px;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+/* Estilização da barra de navegação superior */
+.top-nav {
+    background-color: #000000;
+    color: #fff;
+    padding: 10px;
+    display: column;
+}
+
+.top-nav a {
+    text-decoration: none;
+    color: #fff;
+    margin-right: 20px;
+    vertical-align: top;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+.dropbtn{
+    margin-top: 15%;
+    background-color: #333;
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .dropdown {
+    cursor: pointer;
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .show {
+    display: block;
+  }
+ 
+
+.logo{
+    text-align: left;
+    margin-left: 10%;
+    color: #000000;
+    cursor: pointer;
+    
+}
+
+.user{
+    text-align: right;
+    margin-right: 10%;
+    z-index: 1;
+    cursor: pointer;
+
+}
+
+  

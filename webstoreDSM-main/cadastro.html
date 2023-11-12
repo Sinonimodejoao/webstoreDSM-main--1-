@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+    <head>
+        <title>Cadastre-se</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width", initial-scale="1">
+        <link rel="stylesheet" href="CSS/cadastro.css">
+        <script src="JS/script.js"></script>
+    </head>
+
+    <body>
+        <header class="header row">
+            <div class="logo">Logotipo</div>
+            <input type="text" class="search-bar" placeholder="Pesquisar...">
+            <div class="user">Login</div> 
+        </header>
+
+        <div class="top-nav">
+            <nav class="navbar">
+                <a href="index.html">Menu</a>
+                <a href="produtos.html">Produtos</a>
+                <div class="dropdown">
+                    <button onclick="myFunction()" class="dropbtn">Categorias</button>
+                    <div id="myDropdown" class="dropdown-content">
+                      <a href="adventure.html">Aventura</a>
+                      <a href="esportes.html">Esportes</a>
+                      <a href="fps.html">FPS</a>
+                      <a href="mmo.html">MMO</a>
+                      <a href="rpg.html">RPG</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div id="id01" class="modal">
+          <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+          <form class="modal-content" action="/action_page.php">
+            <div class="container">
+              <h1>Cadastre-se</h1>
+              <p>Por favor, preencha os campos para criar uma conta.</p>
+              <hr>
+        
+              <input type="hidden" name="action" value="register">
+        
+              <label for="nome"><b>Nome</b></label>
+              <input type="text" placeholder="Nome" name="nome" required>
+        
+              <label for="email"><b>E-mail</b></label>
+              <input type="email" placeholder="E-mail" name="email" required>
+        
+              <label for="cpf"><b>CPF</b></label>
+              <input type="text" placeholder="CPF" name="cpf" required>
+        
+              <label for="senha"><b>Senha</b></label>
+              <input type="password" placeholder="Senha" name="senha" required>
+        
+              <label for="senha-confirmacao"><b>Repita a senha</b></label>
+              <input type="password" placeholder="Repita a senha" name="senha-confirmacao" required>
+        
+              <label for="telefone"><b>Telefone</b></label>
+              <input type="tel" placeholder="Telefone" name="telefone" required>
+        
+              <label for="data-nascimento"><b>Data de nascimento</b></label>
+              <input type="date" placeholder="Data de nascimento" name="data-nascimento">
+        
+              <label for="endereco"><b>Endereço</b></label>
+              <input type="text" placeholder="Endereço" name="endereco">
+        
+              <label>
+                <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Lembre de mim!
+              </label>
+        
+              <p>Ao criar uma conta em nosso site você aceita nossos <a href="#" style="color:dodgerblue">Termos & Privacidade</a>.</p>
+        
+              <div class="clearfix">
+                <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancelar</button>
+                <button type="submit" class="signupbtn">Cadastrar</button>
+              </div>
+            </div>
+          </form>
+        </div>
+        <footer>
+          <div class="container-footer">
+            <div class="row-footer">
+  
+              <div class="footer-col">
+                <h4>Sobre</h4>
+                <ul>
+                  <li>
+                    CNPJ: 78.989.264/0001-04
+                  </li>
+                  <li>
+                    E-MAIL: contato@funquest.com.br
+                  </li>
+                  <li>
+                    Telefone: 11 94002-8922
+                  </li>
+                </ul>
+              </div>
+              
+              <div class="footer-col">
+                <h4>projetado por</h4>
+                <ul>
+                  <li>
+                    <a href="#">Ian de Jesus</a>
+                  </li>
+                  <li>
+                    <a href="https://www.linkedin.com/in/karen-leticia/">Karen Leticia</a>
+                  </li>
+                </ul>
+              </div>
+          </div>
+        </footer>
+
+
+    </body>
+</html>
